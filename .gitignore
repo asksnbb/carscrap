@@ -1,0 +1,66 @@
+# Node modules
+node_modules/
+
+# Production build output
+.next/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js build cache
+.next/cache
+
+# Vercel
+.vercel/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Mac system files
+.DS_Store
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Optional coverage directory
+coverage/
+
+# Optional exports
+exported/
+
+# Optional local docker files
+docker-compose.override.yml
+
+# Test coverage
+coverage/
+
+# Storybook files (if using Storybook)
+.out/
+storybook-static/
+
+# Optional log files
+logs
+*.log
+
+# Playwright / Cypress (if using for testing)
+playwright-report/
+cypress/videos/
+cypress/screenshots/
