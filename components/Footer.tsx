@@ -56,7 +56,7 @@ export default function Footer() {
               </div>
               <div className="flex items-start">
                 <i className="ri-map-pin-fill w-5 h-5 flex items-center justify-center mr-3 mt-1"></i>
-                <span className="text-gray-300">Serving entire metro area<br/>Free pickup within 50 miles</span>
+                <span className="text-gray-300">Serving entire metro area<br/>Free pickup within 200 KM</span>
               </div>
             </div>
           </div>
