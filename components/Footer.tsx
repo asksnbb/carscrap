@@ -52,7 +52,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center">
                 <i className="ri-mail-fill w-5 h-5 flex items-center justify-center mr-3"></i>
-                <span className="text-gray-300">info@cashcars.com</span>
+                <span className="text-gray-300">scrabgaadi14@gmail.com</span>
               </div>
               <div className="flex items-start">
                 <i className="ri-map-pin-fill w-5 h-5 flex items-center justify-center mr-3 mt-1"></i>
