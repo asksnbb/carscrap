@@ -10,7 +10,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="text-2xl font-['Pacifico'] text-blue-600">
-              CashCars
+              Scrap Gaadi
             </Link>
             <span className="ml-3 text-sm text-gray-500 hidden md:block">India's #1 Car Scrapping Service</span>
           </div>

@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="text-2xl font-['Pacifico'] text-blue-400 mb-4">
-              CashCars
+              Scrap Gaadi
             </div>
             <p className="text-gray-300 mb-4">
               Your trusted partner for scrap car removal and automotive recycling. Turn your unwanted vehicle into instant cash today.
