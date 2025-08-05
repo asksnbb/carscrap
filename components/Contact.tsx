@@ -48,7 +48,7 @@ export default function Contact() {
               <div className="flex items-center mb-4">
                 <i className="ri-phone-fill w-6 h-6 flex items-center justify-center mr-4"></i>
                 <div>
-                   <a className="text-2xl font-bold" href='tel:+919971885255'>9971 885 255</a> 
+                   <a className="text-2xl font-bold" href='tel:+919210450410'>9210 450 410</a> 
                   <div className="text-blue-100">Available 7 days a week</div>
                 </div>
               </div>

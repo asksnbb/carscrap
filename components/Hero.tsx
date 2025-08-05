@@ -2,6 +2,7 @@
 'use client';
 
 import Link from 'next/link';
+import ScrapPriceCalculator from './ScrapCalculator';
 
 export default function Hero() {
   return (
@@ -25,8 +26,8 @@ export default function Hero() {
               <Link href="#contact" className="bg-orange-500 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-600 transition-colors cursor-pointer whitespace-nowrap text-center">
                 Get Instant Quote
               </Link>
-              <Link href="tel:+919971885255" className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors cursor-pointer whitespace-nowrap text-center">
-                Call Now: 9971 885 255
+              <Link href="tel:+919210450410" className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors cursor-pointer whitespace-nowrap text-center">
+                Call Now: 9210 450 410
               </Link>
             </div>
 
@@ -62,7 +63,9 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="hidden lg:block">
+          <ScrapPriceCalculator/>
+
+          {/* <div className="hidden lg:block">
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
               <h3 className="text-2xl font-bold mb-6">Quick Price Calculator</h3>
               <div className="space-y-4">
@@ -81,7 +84,7 @@ export default function Hero() {
                 </button>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

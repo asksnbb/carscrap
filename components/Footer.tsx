@@ -48,7 +48,7 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center">
                 <i className="ri-phone-fill w-5 h-5 flex items-center justify-center mr-3"></i>
-                <a className="text-gray-300" href='tel:+919971885255'>9971 885 255</a>
+                <a className="text-gray-300" href='tel:+919210450410'>9210 450 410</a>
               </div>
               <div className="flex items-center">
                 <i className="ri-mail-fill w-5 h-5 flex items-center justify-center mr-3"></i>

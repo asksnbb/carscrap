@@ -1,6 +1,8 @@
 
 'use client';
 
+import Link from "next/link";
+
 export default function HowItWorks() {
   const steps = [
     {
@@ -86,12 +88,12 @@ export default function HowItWorks() {
             Join thousands of satisfied customers who have chosen our professional car scrapping service. Get your instant quote today!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors whitespace-nowrap">
+            <Link href="#contact" className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors whitespace-nowrap">
               Get Instant Quote
-            </button>
-            <button className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-600 hover:text-white transition-colors whitespace-nowrap">
-              Call: 123-456-7890
-            </button>
+            </Link>
+            <a href="tel:+919210450410" className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-600 hover:text-white transition-colors whitespace-nowrap">
+              Call: 9210 450 410
+            </a>
           </div>
         </div>
       </div>

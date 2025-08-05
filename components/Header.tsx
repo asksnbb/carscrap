@@ -37,9 +37,9 @@ export default function Header() {
           </nav>
 
           <div className="flex items-center space-x-4">
-            <Link href='tel:+919971885255' className="hidden md:flex items-center text-blue-600 font-semibold hover:text-blue-700">
+            <Link href='tel:+919210450410' className="hidden md:flex items-center text-blue-600 font-semibold hover:text-blue-700">
               <i className="ri-phone-fill w-5 h-5 flex items-center justify-center mr-2"></i>
-              9971 885 255 
+              9210 450 410
             </Link>
             <Link href="#contact" className="bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition-colors cursor-pointer whitespace-nowrap font-semibold">
               Get Quote
