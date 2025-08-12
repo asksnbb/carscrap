@@ -54,7 +54,7 @@ export default function About() {
           
           <div className="relative">
             <img 
-              src="https://readdy.ai/api/search-image?query=Professional%20automotive%20recycling%20team%20in%20safety%20gear%20working%20at%20modern%20car%20scrapyard%20facility%2C%20workers%20dismantling%20vehicles%20for%20parts%20recovery%2C%20clean%20industrial%20environment%20with%20organized%20operations%2C%20eco-friendly%20car%20disposal%20process%2C%20professional%20staff%20with%20safety%20equipment&width=600&height=400&seq=about-team&orientation=landscape"
+              src="/images/scrap.jpg"
               alt="Professional car recycling team"
               className="rounded-lg shadow-lg w-full h-[400px] object-cover object-top"
             />
