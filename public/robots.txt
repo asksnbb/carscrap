@@ -1,2 +1,14 @@
+# Allow all crawlers to access everything
 User-agent: *
 Disallow:
+
+# Block a specific folder
+User-agent: *
+Disallow: /private/
+
+# Allow a specific crawler full access
+User-agent: Googlebot
+Disallow:
+
+# Sitemap location
+Sitemap: https://scrapgaadi.in/sitemap.xml
