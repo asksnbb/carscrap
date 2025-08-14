@@ -11,4 +11,4 @@ User-agent: Googlebot
 Disallow:
 
 # Sitemap location
-Sitemap: https://scrapgaadi.in/sitemap.xml
+Sitemap: https://scrapgaadi.in/sitemap_index.xml
